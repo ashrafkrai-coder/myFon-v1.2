@@ -1,7 +1,7 @@
 $(document).ready(function() {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
-      navigator.serviceWorker.register("/service-worker.js").catch(function(err) {
+      navigator.serviceWorker.register("service-worker.js").catch(function(err) {
         console.error("Gagal daftar service worker:", err);
       });
     });

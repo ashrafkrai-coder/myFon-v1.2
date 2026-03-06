@@ -3,32 +3,20 @@
   "name": "myFon",
   "icons": [
     {
-      "src": "icons/Icon-192.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icons/Icon-512.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "512x512"
-    },
-    {
-      "src": "icons/Icon-maskable-192.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/Icon-maskable-512.png",
-      "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "maskable"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "./",
   "background_color": "#ffffff",
   "display": "standalone",
-  "scope": "/",
+  "scope": "./",
   "theme_color": "#007bff",
   "description": "Sistem pintar untuk merekod telefon bimbit murid PSV di Smk Taman Medan."
 }

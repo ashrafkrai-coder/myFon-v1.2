@@ -1,11 +1,11 @@
-const CACHE_NAME = 'dashboard-kehadiran-v19';
+const CACHE_NAME = 'dashboard-kehadiran-v20';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './icon-192.png',
-  './icon-512.png',
-  './Untitled design.svg'
+  './logo-sekolah.jpg',
+  './favicon.png',
+  './app.js'
 ];
 
 self.addEventListener('install', event => {
